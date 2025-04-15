@@ -37,4 +37,6 @@ def partition(alist,first,last):
 
     return rightmark
 
+a=[44,61,50,11,73,85,19,39]
 
+quickSort(a)
