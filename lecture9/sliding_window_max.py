@@ -18,4 +18,3 @@ def maxInWindows(num, size):
             res.append(num[queue[0]])
         
     return res
-
