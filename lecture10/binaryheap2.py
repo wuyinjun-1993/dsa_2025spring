@@ -46,7 +46,7 @@ class BinHeap:
         return retval
     
     def buildHeap(self,alist):
-        i=len(alist)
+        i=len(alist)//2
         self.currentSize =len(alist)
         self.heapList =[0]+ alist[:]
         print(len(self.heapList),i)
